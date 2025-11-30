@@ -21,7 +21,7 @@ const Header = () => {
           <img 
             src={deltacarLogo} 
             alt="Deltacar Autoservis" 
-            className="h-30 w-auto md:h-12"
+            className="h-30 w-auto md:h-10"
           />
           <span className="text-3xl md:hidden font-bold text-black">DeltaCar</span>
 
