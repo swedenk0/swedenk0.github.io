@@ -31,7 +31,7 @@ const Contact = () => {
             <span className="text-primary">Kontakt</span>
           </h2>
           <p className="text-xl text-muted-foreground">
-            Máte otázky? Kontaktujte nás
+            Chcete sa objednať, alebo máte otázku? Kontaktujte nás
           </p>
         </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Telefón</p>
-                    <p className="text-muted-foreground">+421 XXX XXX XXX</p>
+                    <p className="text-muted-foreground">+421 944 218 867</p>
                   </div>
                 </div>
 
@@ -70,8 +70,8 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold text-foreground">Adresa</p>
                     <p className="text-muted-foreground">
-                      Hlavná ulica 123<br />
-                      010 01 Žilina
+                      Družstevná<br />
+                      919 28 Bučany
                     </p>
                   </div>
                 </div>
@@ -83,9 +83,7 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold text-foreground">Otváracie hodiny</p>
                     <p className="text-muted-foreground">
-                      Po - Pia: 8:00 - 17:00<br />
-                      So: 8:00 - 12:00<br />
-                      Ne: Zatvorené
+                      Po - Ne: Na objednávku<br />
                     </p>
                   </div>
                 </div>
