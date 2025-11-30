@@ -10,7 +10,7 @@ const Footer = () => {
             <img 
               src={deltacarLogo} 
               alt="Deltacar Autoservis" 
-              className="h-16 w-auto mb-4 brightness-0 invert"
+              className="h-16 w-auto mb-4 brightness-0"
             />
             <p className="text-white/80 mb-4">
               Váš spoľahlivý partner pre starostlivosť o auto.
