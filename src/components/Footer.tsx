@@ -68,7 +68,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 flex-shrink-0" />
-                <span>info@autoservis.sk</span>
+                <span>servis@deltacar.sk</span>
               </div>
             </div>
           </div>
