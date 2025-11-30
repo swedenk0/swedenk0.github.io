@@ -24,7 +24,7 @@ const Footer = () => {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/deltacar.sk/"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors"
                 aria-label="Instagram"
               >
@@ -64,7 +64,7 @@ const Footer = () => {
             <div className="space-y-3 text-white/80">
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 flex-shrink-0" />
-                <span>+421 XXX XXX XXX</span>
+                <span>+421 944 218 867</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 flex-shrink-0" />
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 pt-8 text-center text-white/60">
-          <p>© {new Date().getFullYear()} AutoServis. Všetky práva vyhradené.</p>
+          <p>© {new Date().getFullYear()} Deltacar. Všetky práva vyhradené.</p>
         </div>
       </div>
     </footer>
