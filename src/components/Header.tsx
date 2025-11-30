@@ -21,9 +21,9 @@ const Header = () => {
           <img 
             src={deltacarLogo} 
             alt="Deltacar Autoservis" 
-            className="h-30 w-auto md:h-10"
+            className="h-18 w-auto md:h-24"
           />
-          <span className="text-3xl md:hidden font-bold text-black">DeltaCar</span>
+          <span className="text-xl md:text-2xl font-bold text-black">DeltaCar</span>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
