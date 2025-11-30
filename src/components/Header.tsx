@@ -23,7 +23,7 @@ const Header = () => {
             alt="Deltacar Autoservis" 
             className="h-64 w-auto"
           />
-          <span className="text-3xl md:text-5xl font-bold text-primary">Deltacar</span>
+          <span className="text-2xl md:text-3xl font-bold text-black">Deltacar</span>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
