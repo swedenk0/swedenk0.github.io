@@ -31,7 +31,7 @@ const Contact = () => {
             <span className="text-primary">Kontakt</span>
           </h2>
           <p className="text-xl text-muted-foreground">
-            Chcete sa objednať, alebo máte otázku? Kontaktujte nás
+            Chcete sa objednať alebo máte otázku? Kontaktujte nás
           </p>
         </div>
 
@@ -59,7 +59,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Email</p>
-                    <p className="text-muted-foreground">info@autoservis.sk</p>
+                    <p className="text-muted-foreground">servis@deltacar.sk</p>
                   </div>
                 </div>
 
