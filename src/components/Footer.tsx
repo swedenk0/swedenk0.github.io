@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Mail, Phone } from "lucide-react";
-import deltacarLogo from "@/assets/deltacar-logo.jpg";
+import deltacarLogo from "@/assets/deltacar-logo.png";
 
 const Footer = () => {
   return (
