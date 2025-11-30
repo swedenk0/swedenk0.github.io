@@ -2,7 +2,7 @@ const Map = () => {
   // Replace this URL with your actual Google Maps embed URL
   // Go to Google Maps, search for your location, click Share > Embed a map
   // Copy the iframe src URL and paste it below
-  const mapUrl = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d338.990394791821!2d17.69065922900877!3d48.410513907490405!2m3!1f4.488362438778067!2f0.6917912294147711!3f0!3m2!1i1024!2i768!4f35!5e1!3m2!1ssk!2ssk!4v1764285755047!5m2!1ssk!2ssk";
+  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.5385542423487!2d17.687915976735766!3d48.410268932137306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476b59944dd56267%3A0x7c24b6df57ba7798!2sDeltacar!5e1!3m2!1ssk!2ssk!4v1764524427850!5m2!1ssk!2ssk";
 
   return (
     <section id="map" className="py-20 bg-background">
