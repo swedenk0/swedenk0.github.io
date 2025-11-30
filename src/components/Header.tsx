@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
-import deltacarLogo from "@/assets/deltacar-logo.jpg";
+import deltacarLogo from "@/assets/deltacar-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,6 +23,7 @@ const Header = () => {
             alt="Deltacar Autoservis" 
             className="h-12 w-auto"
           />
+          <span className="text-5xl md:text-7xl font-bold text-black mb-6">Deltacar</span>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
