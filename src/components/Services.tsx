@@ -1,4 +1,4 @@
-import { Wrench, Gauge, Droplet, Settings, Battery, Zap } from "lucide-react";
+import { Wrench, Gauge, Droplets, Disc3, Bubbles, Zap, LaptopMinimalCheck } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
 const services = [
@@ -8,29 +8,29 @@ const services = [
     description: "Komplexné opravy motorov, prevodoviek a podvozkov",
   },
   {
-    icon: Gauge,
+    icon: LaptopMinimalCheck,
     title: "Diagnostika",
-    description: "Počítačová diagnostika všetkých systémov vozidla",
+    description: "Diagnostika všetkých systémov vozidla",
   },
   {
-    icon: Droplet,
-    title: "Výmena olejov",
-    description: "Pravidelná výmena motorových a prevodových olejov",
+    icon: Droplets,
+    title: "Výmena prevádzkových kvapalín vozidiel",
+    description: "Výmena motorového oleja a ostatných prevádzkových kvapalín podľa predpisu",
   },
   {
-    icon: Settings,
-    title: "Servis brzd",
-    description: "Výmena brzdových kotúčov, platničiek a kvapalín",
-  },
-  {
-    icon: Battery,
-    title: "Elektrika",
-    description: "Opravy elektrických systémov a diagnostika",
+    icon: Disc3,
+    title: "Pneuservis",
+    description: "Komplexné služby pneuservisu pre vaše vozidlo",
   },
   {
     icon: Zap,
-    title: "Klimatizácia",
-    description: "Servis a plnenie klimatizačných systémov",
+    title: "Elektronika",
+    description: "Oprava a servis elektrických systémov vozidla",
+  },
+  {
+    icon: Bubbles,
+    title: "Detailing",
+    description: "Kompletný detailing pre dokonalý vzhľad vášho vozidla",
   },
 ];
 
