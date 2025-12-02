@@ -3,23 +3,23 @@ import { Award, Users, Clock, Shield } from "lucide-react";
 const features = [
   {
     icon: Award,
-    title: "15+ rokov skúseností",
-    description: "Dlhoročná tradícia v oblasti autoservisu",
+    title: "Dlhoročné skúsenosti",
+    description: "Odbornosť a skúsenosti získané praxou",
   },
   {
     icon: Users,
     title: "Certifikovaní mechanici",
-    description: "Tím odborníkov s praxou a vzdelaním",
+    description: "Skúsení a kvalifikovaní odborníci pre vaše vozidlo",
   },
   {
     icon: Clock,
     title: "Rýchly servis",
-    description: "Efektívne riešenia v krátkych časoch",
+    description: "Efektívne opravy bez zbytočného čakania",
   },
   {
     icon: Shield,
     title: "Záruka kvality",
-    description: "Garancia na všetky vykonané práce",
+    description: "Spoľahlivý servis s garanciou kvality práce",
   },
 ];
 
@@ -34,8 +34,8 @@ const About = () => {
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Sme moderný autoservis, ktorý sa špecializuje na komplexné služby pre všetky
-              typy vozidiel. Naším cieľom je poskytnúť našim zákazníkom najvyššiu kvalitu
-              služieb za spravodlivé ceny.
+              typy osobných vozidiel. Naším cieľom je poskytnúť našim zákazníkom najvyššiu kvalitu
+              služieb za primerané ceny.
             </p>
           </div>
 
