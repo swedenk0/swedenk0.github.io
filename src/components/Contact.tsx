@@ -90,66 +90,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
-          {/* Contact Form */}
-          <div className="animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <Input
-                  placeholder="Vaše meno"
-                  value={formData.name}
-                  onChange={(e) =>
-                    setFormData({ ...formData, name: e.target.value })
-                  }
-                  required
-                  className="bg-background"
-                />
-              </div>
-              <div>
-                <Input
-                  type="email"
-                  placeholder="Email"
-                  value={formData.email}
-                  onChange={(e) =>
-                    setFormData({ ...formData, email: e.target.value })
-                  }
-                  required
-                  className="bg-background"
-                />
-              </div>
-              <div>
-                <Input
-                  type="tel"
-                  placeholder="Telefón"
-                  value={formData.phone}
-                  onChange={(e) =>
-                    setFormData({ ...formData, phone: e.target.value })
-                  }
-                  required
-                  className="bg-background"
-                />
-              </div>
-              <div>
-                <Textarea
-                  placeholder="Vaša správa"
-                  value={formData.message}
-                  onChange={(e) =>
-                    setFormData({ ...formData, message: e.target.value })
-                  }
-                  required
-                  rows={5}
-                  className="bg-background"
-                />
-              </div>
-              <Button
-                type="submit"
-                className="w-full bg-gradient-red hover:opacity-90 transition-opacity"
-                size="lg"
-              >
-                Odoslať správu
-              </Button>
-            </form>
-          </div>
         </div>
       </div>
     </section>
