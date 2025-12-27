@@ -59,7 +59,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Email</p>
-                    <p className="text-muted-foreground">servis@deltacar.sk</p>
+                    <a href:"mailto:servis@deltacar.sk" className="text-muted-foreground">servis@deltacar.sk</a>
                   </div>
                 </div>
 
@@ -70,7 +70,7 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold text-foreground">Adresa</p>
                     <p className="text-muted-foreground">
-                      Družstevná<br />
+                      Družstevná 539<br />
                       919 28 Bučany
                     </p>
                   </div>
