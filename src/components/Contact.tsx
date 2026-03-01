@@ -102,10 +102,7 @@ const Contact = () => {
                   <span className="font-semibold text-foreground">IČO:</span> 57379459
                 </p>
                 <p>
-                  <span className="font-semibold text-foreground">Zapísaný v:</span> Okresný úrad Trnava
-                </p>
-                <p>
-                  <span className="font-semibold text-foreground">Číslo živnostenského registra:</span> 250-62045
+                  <span className="font-semibold text-foreground">Zapísaný v:</span> Obchodnom registri Okresného súdu Trnava, vl.č:61636/T
                 </p>
               </div>
             </div>
