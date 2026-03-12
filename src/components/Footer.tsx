@@ -13,7 +13,7 @@ const Footer = () => {
               className="h-16 w-auto mb-4"
             />
             <p className="text-white/80 mb-4">
-              Váš spoľahlivý partner pre starostlivosť o auto.
+              S nami je vaše auto v bezpečných rukách.
             </p>
             <div className="flex gap-4">
               <a
