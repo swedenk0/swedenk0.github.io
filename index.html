@@ -7,15 +7,11 @@
     <meta name="description" content="Deltacar - moderný autoservis v Bučanoch. Ponúkame komplexné služby: mechanické opravy, diagnostiku, detailing, výmenu olejov a pneuservis." />
     <meta name="author" content="Deltacar Autoservis" />
     <meta name="keywords" content="deltacar, autoservis, oprava áut, diagnostika, servis vozidiel, Trnava, mechanik, výmena oleja, brzdy, Bučany, servis Trnava, pneuservis Trnava, pneuservis Bučany" />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:logo" content="https://deltacar.sk/deltacar-logo.png" />
-
-
+ 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/deltacar-logo.png" />
     <link rel="apple-touch-icon" href="/deltacar-logo.png" />
-  
+ 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Deltacar Autoservis - Profesionálny autoservis | Opravy a údržba vozidiel" />
     <meta property="og:description" content="Deltacar - moderný autoservis v Bučanoch. Certifikovaní mechanici, kvalitné služby za spravodlivé ceny." />
@@ -25,8 +21,26 @@
     <meta property="og:image:alt" content="Deltacar Autoservis logo" />
     <meta property="og:site_name" content="Deltacar Autoservis" />
     <meta property="og:locale" content="sk_SK" />
+ 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Deltacar Autoservis - Profesionálny autoservis" />
+    <meta name="twitter:description" content="Deltacar - moderný autoservis v Bučanoch. Certifikovaní mechanici, kvalitné služby za spravodlivé ceny." />
+    <meta name="twitter:image" content="https://deltacar.sk/deltacar-logo.png" />
+ 
+    <!-- GitHub Pages SPA redirect handler -->
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var p = params.get("p");
+        if (p) {
+          var decoded = decodeURIComponent(p);
+          window.history.replaceState(null, "", decoded);
+        }
+      })();
+    </script>
   </head>
-
+ 
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
