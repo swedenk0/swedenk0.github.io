@@ -37,22 +37,22 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Rýchle odkazy</h4>
             <ul className="space-y-2 text-white/80">
               <li>
-                <a href="#home" className="hover:text-primary transition-colors">
+                <a href="/#home" className="hover:text-primary transition-colors">
                   Domov
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a href="/#services" className="hover:text-primary transition-colors">
                   Služby
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-primary transition-colors">
+                <a href="/#about" className="hover:text-primary transition-colors">
                   O nás
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-primary transition-colors">
+                <a href="/#contact" className="hover:text-primary transition-colors">
                   Kontakt
                 </a>
               </li>
