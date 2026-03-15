@@ -79,9 +79,6 @@ const CennikPneuservis = () => {
             ))}
           </div>
  
-          <p className="text-center text-muted-foreground text-sm mt-8">
-            * Ceny sú uvedené vrátane DPH. Pri otázkach nás neváhajte kontaktovať.
-          </p>
  
           <div className="text-center mt-10">
             <Button
