@@ -101,6 +101,9 @@ const Contact = () => {
                 <p>
                   <span className="font-semibold text-foreground">IČO:</span> 57379459
                 </p>
+                 <p>
+                  <span className="font-semibold text-foreground">DIČ:</span> 2122707279
+                </p>
                 <p>
                   <span className="font-semibold text-foreground">Zapísaný v:</span> Obchodnom registri Okresného súdu Trnava, vl.č: 61636/T
                 </p>
