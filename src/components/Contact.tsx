@@ -67,7 +67,7 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold text-foreground">Adresa</p>
                     <p className="text-muted-foreground">
-                      Družstevná 539<br />
+                      Bučany 539<br />
                       919 28 Bučany
                     </p>
                   </div>
