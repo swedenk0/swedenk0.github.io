@@ -10,7 +10,7 @@ const tireServices = [
   {
     title: "Výmena Pneumatík",
     description: "Demontáž a montáž pneumatík vrátane vyváženia",
-    discount: 5,
+    discount: 10,
     prices: [
       { size: 'do 16"', price: 55 },
       { size: '17" – 18"', price: 65 },
@@ -21,7 +21,7 @@ const tireServices = [
   {
     title: "Výmena Kolies",
     description: "Prezutie kompletných kolies (disk + pneumatika)",
-    discount: 10,
+    discount: 5,
     prices: [
       { size: 'do 16"', price: 35 },
       { size: '17" – 18"', price: 45 },
@@ -57,7 +57,7 @@ const CennikPneuservis = () => {
               Ušetrite pri prezúvaní pneumatík
             </p>
             <p className="mt-1 text-sm text-muted-foreground">
-              Zľava 10 € na prezutie kompletných kolies a 5 € na výmenu pneumatík.
+              Zľava 10 € na výmenu pneumatík a 5 € na prezutie kompletných kolies.
               Platí do {autumnCampaignEnd}
             </p>
           </div>
