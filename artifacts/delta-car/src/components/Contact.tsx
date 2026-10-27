@@ -1,0 +1,119 @@
+import { useState } from "react";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
+import { useToast } from "@/hooks/use-toast";
+
+const Contact = () => {
+  const { toast } = useToast();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    toast({
+      title: "Správa odoslaná!",
+      description: "Čoskoro vás budeme kontaktovať.",
+    });
+    setFormData({ name: "", email: "", phone: "", message: "" });
+  };
+
+  return (
+    <section id="contact" className="py-20 bg-secondary">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            <span className="text-primary">Kontakt</span>
+          </h2>
+          <p className="text-xl text-muted-foreground">
+            Chcete sa objednať alebo máte otázku? Kontaktujte nás
+          </p>
+        </div>
+        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+          {/* Contact Info */}
+          <div className="space-y-8 animate-slide-up">
+            <div>
+              <h3 className="text-2xl font-bold text-foreground mb-6">
+                Kontaktné informácie
+              </h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">Telefón</p>
+                    <a href="tel:+421944218867" className="text-muted-foreground">+421 944 218 867</a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">Email</p>
+                    <a href="mailto:servis@deltacar.sk" className="text-muted-foreground">servis@deltacar.sk</a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">Adresa</p>
+                    <p className="text-muted-foreground">
+                      Bučany 539<br />
+                      919 28 Bučany
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">Otváracie hodiny</p>
+                    <p className="text-muted-foreground">
+                      Po - Ne: Na objednávku<br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Business Registration Info */}
+            <div className="border-t border-border pt-6">
+              <h3 className="text-lg font-bold text-foreground mb-4">
+                Firemné údaje
+              </h3>
+              <div className="space-y-1 text-sm text-muted-foreground">
+                <p>
+                  <span className="font-semibold text-foreground">Obchodné meno:</span> DeltaCar s. r. o.
+                </p>
+                <p>
+                  <span className="font-semibold text-foreground">Sídlo:</span> Ulica Jozefa Adamca 9983/24, 91701 Trnava
+                </p>
+                <p>
+                  <span className="font-semibold text-foreground">IČO:</span> 57379459
+                </p>
+                 <p>
+                  <span className="font-semibold text-foreground">DIČ:</span> 2122707279
+                </p>
+                <p>
+                  <span className="font-semibold text-foreground">Zapísaný v:</span> Obchodnom registri Okresného súdu Trnava, vl.č: 61636/T
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;

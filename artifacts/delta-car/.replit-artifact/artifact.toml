@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Delta Car"
+description = "Webová stránka pneuservisu Delta Car s informáciami o službách, cenníkom prezúvania pneumatík a kontaktmi."
+version = "1.0.0"
+id = "artifacts/delta-car"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21254
+
+[services.development]
+run = "pnpm --filter @workspace/delta-car run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/delta-car", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/delta-car/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21254"
+BASE_PATH = "/"
